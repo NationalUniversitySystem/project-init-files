@@ -1,6 +1,14 @@
 ## Contribution Guide
 
-We use Github to track and host our projects through WPVIP. All our work gets done locally first, then pushed to the preprod branch for environment QA and for sending links for approval. Once the feature is complete and approved, a Pull Request is created on Github towards the `develop` branch, then assign the project lead for a code review and merge approval. The workflow is broken down further below.
+We use Github to track and host our projects through WPVIP.
+
+All our work gets done locally first, then pushed to the `preprod` branch for environment QA and for sending links for approval.
+
+This also applies to content updates, please update on the QA/`preprod` site first and submit for approval the appropriate contacts.
+
+Once the coding feature or change is complete and approved, create a Pull Request on Github towards the `develop` branch, then assign the project lead for a code review and merge approval.
+
+The workflow is broken down further below.
 
 ### Workflow
 - Set up local environment for WPVIP development
