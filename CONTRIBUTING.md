@@ -2,7 +2,7 @@
 
 We use Github to track and host our projects through WPVIP.
 
-All our work gets done locally first, then pushed to the `preprod` branch for environment QA and for sending links for approval.
+All our work gets done locally first, then **merged** into the `preprod` branch for environment QA and for sending links for approval.
 
 This also applies to content updates, please update on the QA/`preprod` site first and submit for approval the appropriate contacts.
 
@@ -23,7 +23,7 @@ The workflow is broken down further below.
 - Test functionality locally
 - Commit all work to feature branch (commit early, commit often, do not push up to remote/origin)
 - Push branch to remote/origin once it works locally
-- In Github, do a pull request from feature branch to merge into `preprod` for QA/revision, or `develop` if it is ready for the live site
+- In Github, do a pull request from feature branch to merge into `preprod` for QA/revision, or `develop` if it is ready for peer review and the live site
 - Pull Request should include a description of what the merge will affect (repos should have templates for PRs)
 - Assign the project lead as a reviewer
 - Add labels if applicable (at least a priority label)
